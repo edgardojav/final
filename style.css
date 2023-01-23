@@ -1,0 +1,450 @@
+*{padding: 0;
+    margin: 0;
+    
+}
+body{width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color:#181D31 ;
+}
+/*
+header{
+    
+    height: 100px;
+}
+header img{
+    width: 80px;
+}
+nav{
+    
+    float: right;
+    position: relative;
+    right:45px;
+    padding: 2px 5px;
+    width: 20%;
+    top: 15px;
+}
+header img{
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.menu{
+    
+     width: 300px;
+     overflow: hidden;
+     text-align: center; 
+     list-style: none;
+     
+     
+      
+}
+.menu li{
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+    float: right;
+    border: 1px solid;
+    margin-right: 20px;
+    border-radius: 12px;
+    box-shadow:2px 3px #678983 ;
+    background-color: #e6ddc4;
+    font-weight: 300;
+}
+.menu li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #181d31;
+}
+/*estilos al main*/
+/*
+main{
+    width: 100%;
+    background: url(../img/codigo.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+ h1{
+    color: #eeeeee;
+    text-shadow: 2px 2px #808080 ,6px 6px #000;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 100px;
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+/* h2*/
+/*
+h2{
+   text-align: center; 
+   color: #678983;
+   font-size: 40px;
+}
+/*section*/
+/*
+section{
+    width: 100%;
+    height:610px;
+    
+    
+}
+.tarjeta{
+    width: 350px;
+    height: 400px;
+    background-color: #a5e8c8;
+    text-align: center;
+   box-sizing: border-box;
+   border: 5px solid rgb(230, 226, 185);
+}
+.uno{
+  float: left;
+  margin: 150px 0 180px 240px;
+}
+.dos{
+   float: right;
+   margin: 150px 240px 180px 0 ;
+}
+.tarjetaImg{
+    width: 340px;
+    height: 230px;
+    background-color: red;
+    
+    box-sizing: border-box;
+}
+.imaUno{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+}
+.imagen{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+}
+*/
+/*prueva 2*/
+header{
+    
+    min-height: 80px;
+}
+nav{
+    
+    display: flex;/*para indicar el uso*/
+    justify-content: space-between;/*ubica uno en cada esquina(primer y ultimo elemento)*/
+    /*justify-content: space; genera un espacio entre todos los componentes*/
+    align-items: center;/*los ubuca en el centro*/
+    padding: 4px 15px;
+    margin: 0 40px;
+
+}   
+svg{
+    width: 200px;
+    height: 80px;
+    
+}
+rect{
+    animation: mover ease-in 4s;
+    animation-iteration-count: 1;
+}
+polyline{
+    animation: mover ease-in 5s;
+    animation-iteration-count: 1;
+}
+@keyframes mover {
+    0% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    90% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+
+nav ul{
+    list-style-type: none;
+   
+    border-radius: 2px;
+    padding: 0%;
+    display: flex;
+    gap: 20px;
+    transition: 0.3s;
+}
+nav ul li{
+    padding:10px ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow:2px 3px #678983 ;
+    background-color: #e6ddc4;
+    
+}
+nav ul li:checked{
+    transform: scale(1.05, 1.05);
+}
+ li a{
+    color:#191d31;
+    text-decoration: none;
+    display: block;
+}
+li:hover{
+    background-color:rgb(171, 213, 184) ;
+}
+.activo{
+    background-color: #54827a;
+}
+
+main{
+    width: 100%;
+    background: url(../img/codigo.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+ h1{
+    color: #eeeeee;
+    text-shadow: 2px 2px #808080 ,6px 6px #000;
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+h2{
+    text-align: center; 
+    color: #678983;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 50px;
+ }
+ /*
+ section{
+    width: 100%;
+    height:610px;
+    display: grid;
+    grid-template-columns: 350px 350px ;
+    grid-template-rows: 610px 610px;
+}
+.tarjeta{
+  /*  width: 350px;
+    height: 400px;*//*
+    background-color: #a5e8c8;
+    text-align: center;
+   box-sizing: border-box;
+   border: 5px solid rgb(230, 226, 185);
+   
+}
+.imaUno{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+}
+.imagen{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+}*/
+section{
+    width: 100%;
+    height: 610px;
+    display: flex;
+    background-size: cover;
+    min-height: 500px;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+      max-width: 360px;
+      max-height: 410px;
+      background-color: #a5e8c8;
+      text-align: center;
+      box-sizing: border-box;
+      border: 5px solid rgb(230, 226, 185);
+      justify-content: space-evenly;
+      margin-top: 100px;
+     gap: 20%;
+  }
+  .tarjeta button{
+    background-color: black;
+    margin: auto;
+    padding:8px 30px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 90px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+  }
+  .estilo{
+    text-decoration: none;
+    color: white;
+
+  }
+  .imaUno{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+    
+}
+.imagen{
+    background: url(../img/img2.jpg);
+    background-size: cover;
+}
+.tarjetaImg{
+    width: 340px;
+    height: 230px;
+    background-color: red;
+    
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    color:#181d31;
+    background-color: #678983;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    margin: 40px;
+    
+}
+.parrafo{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.parrafo img{
+    height: 80px;
+}
+.parrafo p{
+    display: flex;
+    text-align: center;
+}
+
+    /*estilo a la hoja de historia*/
+    div #contsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    div.cont{
+        
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 70px 50px;
+        gap: 20px;
+        
+    }
+    div.cont p{
+        width: 45%;
+        color: #E6DDC4;
+        font-size: 1.1em;
+    }
+   .espa{
+    height: 90px;
+   }
+    article{
+        max-width: 100%;
+        margin-top: 100px;
+        display: flex;
+       
+    }
+    .video-histo{
+        width: 100%;
+    }
+    video{
+        width: 1230px;
+        display: flex;
+        margin: auto;
+    }
+    .barra-video{
+        background-color: #1d1d1d;
+        border-radius: 10px;
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+        max-width:1230px;
+        max-height: 50px;
+        margin: auto;
+        color: white;
+        margin-bottom: 120px;
+    }
+    .btnvideo{
+        background-color: #e6ddc4;
+        box-shadow: 2px 3px #678983;
+        border-radius: 10px;
+        margin-left: 10px;
+         
+    }
+    #play{
+        width: 80px;
+        height: 40px;
+    }
+    #pausa{
+        width: 80px;
+        height: 40px;
+    }
+    .duracion{
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+    }
+    @media (max-width:780px) {
+        section{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 200px;
+            align-items: center;
+        }
+        .titulo-historia{
+            margin-bottom: 100px;
+        }
+        .contsection .contsection{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1000px;
+        }
+        div .cont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .espa{
+            height: 100px;
+        }
+    }
