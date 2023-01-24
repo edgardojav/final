@@ -11,138 +11,16 @@ body{width: 100%;
     width: 100%;
     background-color:#181D31 ;
 }
-/*
-header{
-    
-    height: 100px;
-}
-header img{
-    width: 80px;
-}
-nav{
-    
-    float: right;
-    position: relative;
-    right:45px;
-    padding: 2px 5px;
-    width: 20%;
-    top: 15px;
-}
-header img{
-    margin-left: 65px;
-    margin-top: 10px;
-    background-color: aliceblue;
-}
 
-.menu{
-    
-     width: 300px;
-     overflow: hidden;
-     text-align: center; 
-     list-style: none;
-     
-     
-      
-}
-.menu li{
-    float: left;
-    padding: 10px;
-    background-color: aqua;
-    float: right;
-    border: 1px solid;
-    margin-right: 20px;
-    border-radius: 12px;
-    box-shadow:2px 3px #678983 ;
-    background-color: #e6ddc4;
-    font-weight: 300;
-}
-.menu li a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #181d31;
-}
-/*estilos al main*/
-/*
-main{
-    width: 100%;
-    background: url(../img/codigo.jpg);
-    background-size: cover;
-    min-height: 500px;
-}
- h1{
-    color: #eeeeee;
-    text-shadow: 2px 2px #808080 ,6px 6px #000;
-    font-size: 50px;
-    font-weight: bold;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0% 100px;
-    display: flex;
-    position: relative;
-    top: 200px;
-}
-/* h2*/
-/*
-h2{
-   text-align: center; 
-   color: #678983;
-   font-size: 40px;
-}
-/*section*/
-/*
-section{
-    width: 100%;
-    height:610px;
-    
-    
-}
-.tarjeta{
-    width: 350px;
-    height: 400px;
-    background-color: #a5e8c8;
-    text-align: center;
-   box-sizing: border-box;
-   border: 5px solid rgb(230, 226, 185);
-}
-.uno{
-  float: left;
-  margin: 150px 0 180px 240px;
-}
-.dos{
-   float: right;
-   margin: 150px 240px 180px 0 ;
-}
-.tarjetaImg{
-    width: 340px;
-    height: 230px;
-    background-color: red;
-    
-    box-sizing: border-box;
-}
-.imaUno{
-    background: url(../img/img1.jpg);
-    background-size: cover;
-}
-.imagen{
-    background: url(../img/img2.jpg);
-    background-size: cover;
-}
-*/
-/*prueva 2*/
 header{
-    
     min-height: 80px;
 }
 nav{
-    
-    display: flex;/*para indicar el uso*/
-    justify-content: space-between;/*ubica uno en cada esquina(primer y ultimo elemento)*/
-    /*justify-content: space; genera un espacio entre todos los componentes*/
-    align-items: center;/*los ubuca en el centro*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 4px 15px;
     margin: 0 40px;
-
 }   
 svg{
     width: 200px;
@@ -241,31 +119,7 @@ h2{
     font-weight: bold;
     font-size: 50px;
  }
- /*
- section{
-    width: 100%;
-    height:610px;
-    display: grid;
-    grid-template-columns: 350px 350px ;
-    grid-template-rows: 610px 610px;
-}
-.tarjeta{
-  /*  width: 350px;
-    height: 400px;*//*
-    background-color: #a5e8c8;
-    text-align: center;
-   box-sizing: border-box;
-   border: 5px solid rgb(230, 226, 185);
-   
-}
-.imaUno{
-    background: url(../img/img1.jpg);
-    background-size: cover;
-}
-.imagen{
-    background: url(../img/img2.jpg);
-    background-size: cover;
-}*/
+ 
 section{
     width: 100%;
     height: 610px;
