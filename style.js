@@ -15,6 +15,7 @@ function allowDrop(ev){
    ev.preventDefault();
 };
 //arrastre del elemento
+let imagen=document.querySelector('img');
 function drag(ev){
    ev.dataTransfer.setData("text",ev.target.id);
 }
@@ -24,7 +25,9 @@ function drop(ev){
         let data = ev.dataTransfer.getData("text");
         arreglo[parseInt(ev.target.id)]=data;
         ev.target.appendChild(document.getElementById(data))
+        
     }
+    
 }
 function recarga(){
     window.location.reload()
