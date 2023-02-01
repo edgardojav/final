@@ -33,23 +33,21 @@
           
       </main>
       <h2>CONTENIDO</h2>
-      <section>
-             <div class="tarjeta uno">
-                <div class="tarjetaImg imaUno"></div>
-                <!--img src="../img/img1.jpg" alt="computadora antigua"-->
-                <form action="./historia.html">
-                  <button type="submit">Ir a historia</button>
-                </form>
-                
-             </div>
-             <div class="tarjeta dos">
-                <div class="tarjetaImg imagen"></div>
-                <!--img src="../img/img2.jpg" alt="imagen de programacion"-->
-                <form action="./juguemos.html"><button type="submit">Ir a juegos </button></form>
-                
-                
-             </div>
+      <section class="cont-jug">
+        <div class="cont-cuadro">
+          <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+          <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+      <div class="se"></div>
+      <div class="caja-ima">
+          <img src="./img/Rompe3.png" alt="" draggable="true" ondragstart="drag(event)" id="tres">
+          <img src="./img/rompe1.png" alt="" draggable="true" ondragstart="drag(event)" id="uno">
+          <img src="./img/Rompe2.png" alt="" draggable="true" ondragstart="drag(event)" id="dos">
+      </div>
+       <button onclick="recarga()" id="btnreinicio">Reiniciar</button>
       </section>
+      <!--
       <footer>
             <div class="parrafo">
               <img src="../img/logo.png" alt="">
@@ -59,7 +57,7 @@
               <p>Sitio con fines educativos - Creado por E. Garcia</p>
             </div>
                 
-      </footer>
+      </footer>-->
     </div><!--end container-->
     <script src="./style.js"></script>
 </body>

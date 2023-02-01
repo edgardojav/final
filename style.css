@@ -302,3 +302,54 @@ footer div{
             height: 100px;
         }
     }
+    /*Estilos a juguemos*/
+    .cont-jug{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cont-cuadro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 275px;
+        height: 400px;
+        background-color: #808080;
+        display: flex;
+        
+    
+    }
+    .box:hover{
+        background-color: black;
+    }
+    .se{
+        width: 100%;
+        height: 100px;
+    }
+    .caja-ima{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        text-align: center;
+    }
+    img{
+        width: 275px;
+        height: 400px; 
+    }
+    #btnreinicio{
+        padding: 10px 100px;
+        box-shadow: 2px 3px #678983;
+        background-color: #e6ddc4;
+        box-sizing: border-box;
+        border-radius: 13px;
+    }
